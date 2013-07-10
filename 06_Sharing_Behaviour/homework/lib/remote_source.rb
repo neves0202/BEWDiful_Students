@@ -3,7 +3,6 @@
 require 'json'
 require 'rest-client'
 require_relative 'sale'
-require_relative 'products'
 
 class RemoteSource
   def self.get
